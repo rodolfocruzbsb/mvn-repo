@@ -3,12 +3,11 @@
 Para utilizar este repositório, adicione no pom:
 
 ```
-#!xml
 <repositories>
 	<repository>
-		<id>itsstecnologia-repo</id>
-		<name>Repository for ITSS private libs</name>
-		<url>https://bitbucket.org/itssmultiplataforma/mvn-repo/raw/master/repository/</url>
+		<id>zurcs-repo</id>
+		<name>Repository for ZURCS libs</name>
+		<url>https://github.com/rodolfocruzbsb/mvn-repo/tree/master/repository/</url>
 	</repository>
 </repositories>
 ```
@@ -17,7 +16,6 @@ Para utilizar este repositório, adicione no pom:
 ### PRETTY-TOOLS-JDDE ###
 
 ```
-#!xml
 <dependency>
 	<groupId>pretty-tools-JDDE</groupId>
 	<artifactId>pretty-tools-JDDE</artifactId>
@@ -27,7 +25,6 @@ Para utilizar este repositório, adicione no pom:
 ### SAP-JCO ###
 
 ```
-#!xml
 <dependency>
 	<groupId>com.sap</groupId>
 	<artifactId>sap-jco</artifactId>
@@ -37,17 +34,16 @@ Para utilizar este repositório, adicione no pom:
 ### ALL Parent ###
 
 ```
-#!xml
 <dependency>
 	<groupId>br.com.zurcs</groupId>
 	<artifactId>all-parent</artifactId>
 	<version>1.0.0</version>
 </dependency>
+```
 
 ### COMMONS UTIL ###
 
 ```
-#!xml
 <dependency>
 	<groupId>br.com.zurcs.utilitario</groupId>
 	<artifactId>commons-util</artifactId>
@@ -58,7 +54,6 @@ Para utilizar este repositório, adicione no pom:
 ### ARQUITETURA BASE ###
 
 ```
-#!xml
 <dependency>
 	<groupId>br.com.zurcs</groupId>
 	<artifactId>arquitetura-base</artifactId>
